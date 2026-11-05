@@ -11,7 +11,7 @@ El caso de estudio representa un **compartimento musculoesquelético** mediante 
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado de Sistemas Fisiológicos  
 **Programa:** Ingeniería Biomédica  
-**Estudiante:** Josue Raul Guerrero Peñaloza · 24210583 · l24210583@tectijuana.edu.mx
+**Estudiante:** Josue Raul Guerrero Peñaloza · 24210583 · L24210583@tijuan.tecnm.mx
 
 **Repositorio de la asignatura:** https://github.com/DrPaulValle/MSF-IBF1020  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
@@ -100,7 +100,7 @@ La práctica integra contenidos de tres unidades de la asignatura **Modelado de 
 
 Los modelos mecánicos son una herramienta para representar las propiedades viscoelásticas del sistema musculoesquelético: combinando elementos contráctiles, resortes y amortiguadores se describe de forma simplificada la relación entre la fuerza del músculo, su deformación y las propiedades de los tejidos y tendones. La figura muestra el esquema del modelo sobre el brazo, con el tendón dañado que representa al caso.
 
-![Esquema del modelo musculoesquelético: fuerza F(t), desplazamientos x(t) y x1(t), elementos Cp y Cs, y tendón dañado (caso) con FsY(t) y FsX(t)](esquema_musculoesqueletico.jpg)
+![Esquema del modelo musculoesquelético: fuerza F(t), desplazamientos x(t) y x1(t), elementos Cp y Cs, y tendón dañado (caso) con FsY(t) y FsX(t)](Biorender_Musculoesqueletico.jpg)
 
 *Esquema elaborado en BioRender: el elemento paralelo $C_p$ (músculo), el elemento en serie $C_s$ (tendón), el desplazamiento total $x(t)$, el desplazamiento $x_1(t)$ de $C_s$ y la deformación del amortiguador $x(t)-x_1(t)$. En el recuadro, $F_{sX}(t)$ es la fuerza transmitida del control y $F_{sY}(t)$ la del caso (tendón dañado).*
 
@@ -387,7 +387,7 @@ $$
 
 La sintonización se hizo con tiempo de respuesta de $0.011\,\mathrm{s}$ (igual a la constante de tiempo del control) y comportamiento transitorio de $0.9$ (lado robusto).
 
-![Captura de la sintonización del PID en Simulink: parámetros y desempeño](pid_sintonizacion.jpg)
+![Captura de la sintonización del PID en Simulink: parámetros y desempeño](Caso_param_controlador.jpg)
 
 ### 3. Desempeño en lazo cerrado
 
