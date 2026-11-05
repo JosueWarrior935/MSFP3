@@ -1,0 +1,29 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: 'Practica 3: sistema musculoesquelético'
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Josue R.
+    family-names: Guerrero Peñaloza
+    email: L24210583@tijuana.tecnm.mx
+    affiliation: TecNM/IT Tijuana
+repository-code: 'https://github.com/JosueWarrior935/MSFP3'
+keywords:
+  - circuito RLC
+  - controlador PID
+  - sistema musculoesquelético
+  - modelado de sistemas fisiológicos
+  - MATLAB
+  - Simulink
+  - Simscape Electrical
+  - Python
+  - simulación
+  - instrumentación electrónica
+license: BSD-2-Clause
+version: '1.0'
+date-released: '2026-11-04'
