@@ -47,7 +47,7 @@ La práctica modela las propiedades viscoelásticas del sistema musculoesquelét
 
 Se comparan dos individuos que difieren **únicamente en la resistencia $R$**: control ($R=100\,\Omega$) y caso ($R=10\,\mathrm{k}\Omega$). Ante un pulso de fuerza de $1\,\mathrm{V}$ entre $t=1\,\mathrm{s}$ y $t=2\,\mathrm{s}$, ambos tienen el mismo valor final pero el caso responde unas 100 veces más lento. Para reducir esa diferencia se diseña un **controlador PI con retroalimentación negativa** que toma la respuesta del control como referencia. Los resultados se obtienen con MATLAB/Simulink (modelo `sistema2020_3`), se comprueban con una integración numérica propia del modelo de EDOs y se reproducen en Python.
 
-**Palabras clave:** circuito RLC; controlador PID; mecánica pulmonar; modelado de sistemas fisiológicos; MATLAB; Simulink; Simscape Electrical; Python; simulación *in silico*; instrumentación electrónica.
+**Palabras clave:** circuito RLC; controlador PID; sistema musculoesquelético; modelado de sistemas fisiológicos; MATLAB; Simulink; Simscape Electrical; Python; simulación; instrumentación electrónica.
 
 [Volver al contenido](#contenido)
 
