@@ -100,7 +100,7 @@ La práctica integra contenidos de tres unidades de la asignatura **Modelado de 
 
 Los modelos mecánicos son una herramienta para representar las propiedades viscoelásticas del sistema musculoesquelético: combinando elementos contráctiles, resortes y amortiguadores se describe de forma simplificada la relación entre la fuerza del músculo, su deformación y las propiedades de los tejidos y tendones. La figura muestra el esquema del modelo sobre el brazo, con el tendón dañado que representa al caso.
 
-![Esquema del modelo musculoesquelético: fuerza F(t), desplazamientos x(t) y x1(t), elementos Cp y Cs, y tendón dañado (caso) con FsY(t) y FsX(t)](Biorender_Musculoesqueletico.jpg)
+![Esquema del modelo musculoesquelético: fuerza F(t), desplazamientos x(t) y x1(t), elementos Cp y Cs, y tendón dañado (caso) con FsY(t) y FsX(t)](Biorender_Musculoesqueletico.jpeg)
 
 *Esquema elaborado en BioRender: el elemento paralelo $C_p$ (músculo), el elemento en serie $C_s$ (tendón), el desplazamiento total $x(t)$, el desplazamiento $x_1(t)$ de $C_s$ y la deformación del amortiguador $x(t)-x_1(t)$. En el recuadro, $F_{sX}(t)$ es la fuerza transmitida del control y $F_{sY}(t)$ la del caso (tendón dañado).*
 
@@ -150,7 +150,7 @@ La diferencia entre control y caso se representa **solo con el incremento de $R$
 <a id="modelo"></a>
 ## Formulación matemática
 
-El análisis se hizo a mano y se resume a continuación; el desarrollo completo está en el PDF [`Analisis_Matematico_P3.pdf`](Analisis_Matematico_P3.pdf).
+El análisis se hizo a mano y se resume a continuación; el desarrollo completo está en el PDF [`Analisis_Matematico_P3.pdf`](Análisis_Matematico_P3.pdf).
 
 ### 1. Relaciones del modelo
 
@@ -387,7 +387,7 @@ $$
 
 La sintonización se hizo con tiempo de respuesta de $0.011\,\mathrm{s}$ (igual a la constante de tiempo del control) y comportamiento transitorio de $0.9$ (lado robusto).
 
-![Captura de la sintonización del PID en Simulink: parámetros y desempeño](Caso_param_controlador.jpg)
+![Captura de la sintonización del PID en Simulink: parámetros y desempeño](Caso_param_controlador.jpeg)
 
 ### 3. Desempeño en lazo cerrado
 
