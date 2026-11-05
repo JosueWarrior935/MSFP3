@@ -512,8 +512,9 @@ Organización **sugerida** para la entrega:
 ├── Caso_matlab.pdf
 ├── EDOsys_matlab.pdf
 ├── CasoTratamiento_python.pdf
-├── esquema_musculoesqueletico.jpg     # Esquema del modelo (BioRender)
-└── pid_sintonizacion.jpg              # Captura de la sintonización del PID
+├── Biorender_Musculoesqueletico.jpeg     # Esquema del modelo (BioRender)
+└── Caso_param_controlador.jpeg              # Captura de la sintonización del PID
+└── LICENSE           
 ```
 
 **Criterio de nombres:** los nombres de las figuras corresponden a los que generan los scripts. Los nombres del cuaderno, del modelo, de la exportación analítica y de las imágenes son **propuestas organizativas**; si se usan otros nombres o subcarpetas, actualizar las rutas del README.
